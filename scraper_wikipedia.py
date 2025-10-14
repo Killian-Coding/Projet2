@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 url = "https://fr.wikipedia.org/wiki/Liste_des_pays_par_population"
 
-# Ajouter un header pour simuler un vrai navigateur
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
 }
